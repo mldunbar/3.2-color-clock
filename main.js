@@ -16,7 +16,7 @@ function displayTime(){
 }
 //this calls the function, so you don't need to call the function earlier
 setInterval(displayTime, 1000);
-
+//
 // function displayCurrentTime(time){
 //   var timeNow = padNumbers(time);
 //   $hours.textContent = time[0];
@@ -31,8 +31,19 @@ setInterval(displayTime, 1000);
 //   leadingZero[2] = ("0" + time[2]);
 //   return leadingZero;
 // }
-
+//
 // padNumbers(); // execute function
+
+// function displayCurrentTime(){
+//     var currentTime = new Date();
+//     var hours = ("0" + currentTime.getHours()).slice(-2);
+//     var minutes = ("0" + currentTime.getMinutes()).slice(-2);
+//     var seconds = ("0" + currentTime.getSeconds()).slice(-2);
+//     setWidth();
+//     $clockDisplay.textContent = hours + ":" + minutes + ":" + seconds;
+//   }
+//
+//   displayCurrentTime();
 
 //WAKE UP TOMORROW AND MAKE THIS WORK
 
@@ -44,5 +55,3 @@ function setWidth() {
 
   $line.style.width = linePercent;
 }
-
-// var timeBarPercent = String(timeBar) + "%";
