@@ -1,7 +1,3 @@
-body{
-  background-color: green;
-}
-
 .timeNow {
   color: white;
   font-family: Arial;
@@ -15,4 +11,14 @@ body{
   border-bottom: 1px solid white;
   width: 50%;
   margin: auto;
+}
+
+body{
+  background-color:#440951;
+  background-image: -moz-radial-gradient(center 45deg,circle cover, #b032cb, #440951);
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#b032cb), to(#440951));
+  background-image: radial-gradient(center 45deg,circle cover, #b032cb, #440951);
+}
+
+.timeNow:hover{
 }
