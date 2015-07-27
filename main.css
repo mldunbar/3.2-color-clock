@@ -1,0 +1,22 @@
+.timeNow {
+  color: white;
+  font-family: Arial;
+  font-size: 5em;
+  position: relative;
+  margin: 22% 35% 0 35%;
+  width: auto;
+}
+
+.line{
+  border-bottom: 1px solid white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+body{
+  background-color:#440951;
+}
+
+.timeNow:hover{
+
+}
